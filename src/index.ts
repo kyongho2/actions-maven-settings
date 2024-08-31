@@ -1,7 +1,7 @@
 import fsPromise from 'fs/promises';
 import * as os from 'os';
 import * as path from 'path';
-import {js2xml} from 'xml-js';
+import { js2xml } from 'xml-js';
 import * as core from '@actions/core';
 
 type MavenSettings = {
